@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+
+header {
+    background: url(../img/man.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.header__bg_black {
+    height: 500px;
+    background-color: #1b1b1b;
+    z-index: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 37%, 0% 100%);
+    margin-bottom: 20%;
+}
+
+.header__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__face_link {
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 170px;
+    color: white;
+    font-family: Onyx;
+}
+
+.header__content {
+    background-color: #1b1b1b;
+    width: 100%;
+    clip-path: polygon(0 44%, 100% 11%, 100% 69%, 0 90%);
+}
+
+.bg-ornament {
+    height: 100%;
+    width: 100%;
+    background: url(../img/orn3.png) 0 40px repeat;
+    background-size: 100%;
+}
+
+.header__content_text_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 270px;
+    text-align: center;
+    padding-bottom: 270px;
+}
+
+.header__text_welcome {
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    letter-spacing: 5px;
+    width: 50%;
+    align-self: center;
+}
+
+.bold-style {
+    font-weight: 700;
+}
+
+.header__text_about {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20.6px;
+    color: white;
+    width: 55%;
+}
+
+.content__wrapper {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 200px;
+    letter-spacing: 163px;
+}
+
+.content__block_top {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.content__block_top-left {
+    margin-right: 8px;
+    align-self: flex-end;
+}
+
+
+.content__block_top-right {
+    align-self: flex-start;
+}
+
+h3 {
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 119px;
+}
+
+.block_top-right_works {
+    align-self: flex-end;
+
+}
+
+.block_top-right_works img {
+    margin-right: 8px;
+}
+
+.content__block_bottom {
+    display: flex;
+}
+
+.content__block_bottom img {
+    margin-right: 8px;
+}
+
+.about-tattoo {
+    position: relative;
+    top: -70px;
+    background-color: #1b1b1b;
+    color: white;
+    text-align: center;
+    clip-path: polygon(0 32%, 100% 11%, 100% 65%, 0 90%);
+}
+
+.about-tattoo__bg-ornament {
+    background: url(../img/orn3.png) 0 -100px no-repeat;
+    background-size: 150%;
+}
+
+
+.about-tatto__content {
+    padding: 20% 0;
+    text-align: center;
+}
+
+h4 {
+     font-family: Onyx;
+    font-weight: 400;
+    font-size: 130px;
+    letter-spacing: 7px;
+}
+
+.about-tattoo__text {
+    margin-bottom: 20px;
+}
+
+.questrial-text {
+    font-family: Questrial;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+}
+
+.sarina-text {
+    font-family: Sarina;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 5px;
+}
+
+.footer {
+    padding-bottom: 40px;
+    position: relative;
+    top: -400px;
+    background: url(../img/yellow_telka.png) 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.footer__carts {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.footer__content_cart {
+    margin-bottom: 30px;
+}
+
+.footer__content_img {
+    margin-bottom: 30px;
+}
+
+ .footer__content_text {
+    color: black;
+    font-family: 'Questrial';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+}
+
+.footer__link:hover .footer__content_text {
+    text-decoration: underline;
+}
+
+
+src: url(../fonts/ONYX.TTF);
